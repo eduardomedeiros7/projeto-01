@@ -201,6 +201,7 @@ footer > p > a{
     font-size:0.9em ;
     color:white;
     background-color: var(--cor0);
+    color: aqua;
    
    
    
@@ -212,14 +213,19 @@ footer > p > a{
     border-radius:10px ;
     text-align: right;
    
+   
   
    
 }
 .detalhes{
-    background-color: var(--cor0);
+   
+    background-color: var(--cor1);
+   
 }
 .principal{
-    background-color: var(--cor0);
+    
+   background-color: var(--cor1);
+   
     padding:5px ;
     border-radius:10px ;
     margin:5px ;
@@ -230,7 +236,7 @@ footer > p > a{
     height:10px ;
     height:10px ;
     border-radius:10px ;
-    text-align: left;
+   text-align: start;
    
 
 }
@@ -248,4 +254,13 @@ div.video > iframe{
     left:2% ; /*parte esquerda da dica de cima*/
     width:96% ;
     height:95% ;
+}
+.menu-principal{
+   
+   background-color: var(--cor1);
+    color: aqua;
+    padding:10px ;
+    text-align: left;
+    width:10px ;
+    height:10px ;
 }
